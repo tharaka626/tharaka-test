@@ -20,3 +20,6 @@ __Front-end__
 - Run __npm run serve__ 
 - That's it: launch the URL that appears in the terminal - could be `http://localhost:8080`
 
+## Default admin credential
+username = admin@email.com
+password = 123 
