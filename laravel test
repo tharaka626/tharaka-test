@@ -1,0 +1,68 @@
+a hotel room reservation
+
+users to reserve and pay hotel room/rooms
+view the  user profile
+reservation history
+admin panel
+	-manage rooms
+	-manage users
+	-manage customer
+	-manage reservations
+	
+user - able to register an account, login, view available rooms, reserve and pay for room, view my profile, reservation history
+
+admin - add,view,remove,update rooms/customers/users/reservations
+
+
+
+authentication and authorization
+user authentication using JWT token, laravel passport, laravel breeze or own mechanisam
+role based access control to controler permission
+
+room manaegment - 
+CRUD operation for manage rooms
+a real time channel partner API (booking.com/agoda)to fetch and display real time reservation
+design a schema to store room information in a database (mylsql,postgresql,mongodb,google firestore)
+
+reservation management - 
+admin should be able to view room reservations, payment informaiton, available rooms
+total value of the room reservation including NBT, VAt, pre defined discount
+
+
+customer management
+validation to ensure user provide valid telephone and email when register
+
+API design
+REST API 
+implement REST endpoint for specific queries and mutationns related to user actions
+
+documentation and testing
+generate API documenation using Swagger
+write unit test for critical components
+use postman to test API endpoints
+
+
+IMP
+use laravel for backend
+use blade/vue/react/angular for building fron end
+use bootstrap/tailwaind/css
+use mysql/postgresql/mongoDB/google firestore
+
+system is scalable, efficient, and follow best practise
+
+docuemnt your design decisions, choice of technology, architectureal patterns, trade-offs made
+
+
+submit your assignment in a GIT with instructions on how to run the application and test
+
+architecture and design 30%
+implementation 30%
+code qualtiy 20%
+documentaion and testing 15%
+creativity and scalability 5%
+
+
+Due date - 3 days (17 march 1.26)
+
+submit assignement via email, including link of GIT
+

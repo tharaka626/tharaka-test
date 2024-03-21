@@ -1,0 +1,22 @@
+Services - id,name,icon,status
+Bed_Types - id,name,icon,status
+Roles - id,name
+
+Rooms - id,name,room_type_id,description,number_of_guest,room_size,breakfirst_included,main_image,price_amt,net_services_amt,
+	total_amt,used_count,total_count,status
+Room_Bed_Types - id,room_id,bed_type_id
+Room_Services - id,room_id,services_id,description,price
+Room_Other_Images - id,room_id,image
+
+
+Reservation - id,user_id,payment_method,check_in_date,check_out_date,additional_request,number_of_guest,payment_status,
+		sub_amount,discount,vat,net_amount,total_paid_amount
+
+Reservation_details - id,reservation_id,room_id,additional_request
+Reservation_Services - id,reservation_id,services_id,description,price
+reservation_payment_details - id,reservation_id,payment_method,payment_status,paid_amount,
+
+
+Users - id,name,username,password,is_customer,
+user_has_roles - id,user_id,role_id
+
